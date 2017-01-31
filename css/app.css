@@ -1,0 +1,354 @@
+body {
+	font-weight: 300;
+	font-size: 1em;
+	background-color: #FFFDE8;
+	color: #A6A6A6;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+body h2, h3, h4 {
+	color: #79D8FB;
+	font-weight: 700;
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+}
+body h2 {
+	font-size: 2.8em;
+}
+body h3 {
+	font-size: 1.8em;
+}
+a {
+	color: #79D8FB;
+}
+a:hover {
+	color: #FBCD00;
+}
+a:visited { 
+    color: #79D8FB;
+}
+
+#logo {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#mainNav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	color: #000000;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+#mainNav a {
+	font-weight: 700;
+	line-height: 44px;
+	font-size: 1.25em;
+}
+#mainNav a:hover {
+	border-bottom: 2px solid #79D8FB;
+
+color: #FBCD00;
+}
+#mainNav ul {
+	display: inline;
+	margin: 0 auto;
+}
+/*Hamburger Menu*/
+
+.title-bar {
+	background-color: #FFFDE8;
+	margin-bottom: 10px;
+	padding-right: 0;
+}
+.title-bar .menu-icon {
+	margin-right: 0;
+}
+.menu-icon::after {
+	background: #79D8FB;
+	box-shadow: 0 7px 0 #79D8FB, 0 14px 0 #79D8FB;
+}
+.menu-icon:hover::after {
+	background: #79D8FB;
+	box-shadow: 0 7px 0 #79D8FB, 0 14px 0 #79D8FB;
+}
+/*Hamburger Menu END*/
+
+#titles h3 {
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2em;
+}
+
+.infoSection {
+	margin-top: 110px;
+}
+.infoRight {
+	text-align: center;
+	padding-right: 0px;
+}
+.infoLeft {
+	text-align: center;
+	padding-left: 0px;
+}
+#mainImageCaption {
+	margin-top: 200px;
+	background-color: hsla(0,0%,100%,0.25);
+}
+#mainImageCaption h2 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+	text-align: center;
+	font-style: italic;
+	color: #FFF;
+	font-size: 2.25em;
+}
+
+#services {
+	text-align: center;
+	margin-top: 88px;
+}
+#services h3 {
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 700;
+}
+#services h4{
+color: #A6A6A6;
+font-size: 1em;
+text-align: center;
+margin-top: 10px;
+}
+
+#services img {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 220px;
+}
+
+
+#footerCon {
+	margin-top: 120px;
+	background-color: #2B3990;
+}
+#footerNav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	color: #000000;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+#footerNav a {
+	color: #fff;
+	font-weight: 700;
+	line-height: 44px;
+	font-size: 1em;
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+}
+#footerNav a:hover {
+	color: #FBCD00;
+}
+#backTop {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#backTop a {
+	font-weight: 700;
+	line-height: 44px;
+	font-size: 1.25em;
+}
+#backTop a:hover {
+	border-bottom: 2px solid #F2F2F2;
+}
+#social {
+	margin: 0 auto;
+	text-align: center;
+}
+#social img {
+	width: 50px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-top: 10px;
+}
+#social a:hover {
+	border-bottom: 0px none;
+}
+#copyright {
+	color: #F2F2F2;
+	text-align: center;
+	padding-top: 16px;
+	background-color: #2B3990;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+/*Contact Page*/
+
+#contactHead {
+	text-align: center;
+	margin-bottom: 38px;
+}
+#contactForm {
+	background-color: #2B3990;
+	padding: 4em;
+	border-radius: 10px;
+}
+#contactForm label {
+	color: white;
+	font-size: 1em;
+	font-weight: 700;
+}
+#contactForm p {
+	color: white;
+	font-size: 1.15em;
+	font-weight: 500;
+	padding-top: 0.5em;
+}
+#submit {
+	text-align: center;
+	background: #FBCD00;
+	color: #424242;
+	border: none;
+	padding: 0.5em;
+	padding-bottom: 0.4em;
+	font-weight: 700;
+	padding-right: 0.4em;
+	margin-top: 20px;
+	height: 60px;
+	width: 100%;
+	
+	margin-left:0;
+	margin-right: 0;
+
+}
+#submit:hover {
+	font-weight: 700;
+	background: #79D8FB;
+	
+	
+}
+/*************************About*********************************/
+
+#aboutUs {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+#aboutUsHead {
+	text-align: center;
+}
+.bioBox {
+	background-color: #2B3990;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.bioImage {
+	border-radius: 50%;
+	display: block;
+    margin: auto;
+	
+}
+.bioBox p {
+	color: #F2F2F2;
+	line-height: 1.5em;
+}
+.bioBox h3 {
+	font-weight: 700;
+	font-size: 2.5em;
+	color: #F2F2F2;
+	margin-bottom: 2px;
+}
+
+.bioInfo {
+	text-align:center;
+
+}
+
+@media screen and (min-width: 64em) {
+#logo {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#mainNav {
+	text-align: center;
+	font-size: 1.25em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#mainNav li {
+	border-bottom: none;
+	display: inline;
+	margin-left: 20px;
+}
+#mainNav li a {
+	display: inline;
+	padding: 5px 0 5px 0;
+}
+#social img {
+	margin-top: 20px;
+	width: 42px;
+	margin-bottom: 20px;
+}
+#mainImageCaption h2 {
+	font-size: 2.625em;
+}
+.infoRight {
+	text-align: right;
+	padding-right: 60px;
+}
+.infoLeft {
+	text-align: left;
+	padding-left: 60px;
+}
+#backTop {
+	display: none;
+}
+#footerNav {
+	text-align: center;
+	font-size: 1.25em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#footerNav li {
+	border-bottom: none;
+	display: inline;
+	margin-left: 20px;
+}
+
+.bioInfo {
+	text-align: left;
+
+}
+
+.bioImage {
+	margin-top: 10px;
+	
+}
+
+#submit {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+}
