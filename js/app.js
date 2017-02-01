@@ -8,7 +8,7 @@ var iceCreamContent = {
 home: {
   header: "Your go-to experts of all things Ice Cream",
   mainImg: "images/icecream1.jpg",
-  mainHeader: "Experts of Ice Cream",
+  mainHeader: "Experts Of Ice Cream",
   mainBio: "Maestros of confectionary, we are the utmost experts of all things Ice Cream. Through many years of training and application Golden Spoon Ice Cream Tasting are the foremost experts of Ice Cream. We strive for the betterment of ice cream for all. We offer our tasting expertise through a multitude of services including consultation and flavor creation.",
 
   subImg: "images/icecream2.jpg",
@@ -35,7 +35,7 @@ contact: {
   subHeader: "Facebook",
   subBio: "Like us below on Facebook to follow our content!"
 }
-}
+};
 
 var navCont = document.querySelectorAll(".nav-item");
 var servicesCont = document.querySelector("#servicesCont");
