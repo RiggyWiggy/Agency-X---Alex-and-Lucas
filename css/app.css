@@ -4,6 +4,8 @@ body {
 	background-color: #FFFDE8;
 	color: #A6A6A6;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+	position: relative;
 }
 body h2, h3, h4 {
 	color: #79D8FB;
@@ -22,7 +24,7 @@ a {
 a:hover {
 	color: #FBCD00;
 }
-a:visited { 
+a:visited {
     color: #79D8FB;
 }
 
@@ -117,6 +119,7 @@ color: #FBCD00;
 	text-align: center;
 	font-size: 1.8em;
 	font-weight: 700;
+	color: #FBCD00;
 }
 #services h4{
 color: #A6A6A6;
@@ -175,6 +178,9 @@ margin-top: 10px;
 	margin: 0 auto;
 	text-align: center;
 }
+#social h4{
+	padding-top: 20px;
+}
 #social img {
 	width: 50px;
 	margin-left: 6px;
@@ -231,7 +237,7 @@ margin-top: 10px;
 	margin-top: 20px;
 	height: 60px;
 	width: 100%;
-	
+
 	margin-left:0;
 	margin-right: 0;
 
@@ -239,8 +245,8 @@ margin-top: 10px;
 #submit:hover {
 	font-weight: 700;
 	background: #79D8FB;
-	
-	
+
+
 }
 /*************************About*********************************/
 
@@ -251,6 +257,7 @@ margin-top: 10px;
 #aboutUsHead {
 	text-align: center;
 }
+
 .bioBox {
 	background-color: #2B3990;
 	margin-top: 20px;
@@ -258,12 +265,73 @@ margin-top: 10px;
 	padding: 30px;
 	border-radius: 10px;
 }
+/**Lucas' Adds**/
+#indexWrapper{
+	width: 100%;
+	position: relative;
+}
+.page-header{
+	text-align: center;
+	padding: 50px;
+}
+.bioBox img{
+	background-color: #2B3990;
+	padding: 30px;
+	border-radius: 10px;
+	border-radius: 50%;
+}
+.bioBox div > h3{
+	color:#FBCD00;
+	size: 2em;
+}
+.defaultBox{
+		padding: 30px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+.defaultBox img {
+width: 250px;
+position: relative;
+}
+.defaultBox div > h3{
+	color: #79D8FB;
+	size: 1.5em;
 
+}
+.contactBox{
+width: 50%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+
+}.contactBox img{
+width: 150px;
+margin: 0 auto;
+
+}
+
+#servicesCont{
+	position: relative;
+	margin-top: -50px;
+	margin-bottom: 100px;
+}
+.nav-item{
+	color:#79D8FB;
+	 font-size: 1.4em;
+		transition: 0.1s ease-in-out;
+}
+.nav-item:hover{
+	cursor: pointer;
+	color: #FBCD00;
+
+}
+/**End of Lucas' Adds**/
 .bioImage {
 	border-radius: 50%;
 	display: block;
     margin: auto;
-	
+
 }
 .bioBox p {
 	color: #F2F2F2;
@@ -341,7 +409,22 @@ margin-top: 10px;
 
 .bioImage {
 	margin-top: 10px;
-	
+
+}
+.contactBox{
+width: 40%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+
+}
+.contactBox img{
+width: 80px;
+left: 13%;
+display: block;
+position: relative;
+margin: 0 auto;
+
 }
 
 #submit {
