@@ -99,7 +99,7 @@ for(var i=0; i < pageSect.length; i++){
 }
 [].forEach.call(navCont, function(item){
 item.addEventListener('click', objectChange, true);
-})
+});
 
 
 })();
